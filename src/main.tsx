@@ -34,7 +34,7 @@ declare global {
   }
 }
 
-const title = localStorage.getItem("title")?.trim() || "Radon Games";
+const title = localStorage.getItem("title")?.trim() || "Limitless";
 document.title = title;
 const icon = localStorage.getItem("icon")?.trim() || "/favicon.ico";
 document.querySelector('link[rel="icon"]')!.setAttribute("href", icon);
