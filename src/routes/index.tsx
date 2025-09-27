@@ -50,7 +50,7 @@ export function Home() {
       <section className="my-32 flex w-full flex-col items-center justify-center gap-5">
         <Banner className="h-10 sm:h-14" />
         <p className="text-center">
-          An open-source unblocked games website built with simplicity in mind.
+          Limitless - Play anywhere... Anytime
         </p>
         <div className="flex gap-5">
           <motion.a
